@@ -4,7 +4,6 @@ trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 webcam =cv2.VideoCapture(0)
 while True:
-    # Silicon.Valley.S01E01labiba marja.720p.5.1Ch.BluRay.ReEnc-DeeJayAhmed.mkv
     successful_frame_read, frame =webcam.read()
 
     greyscale_img = cv2.cvtColor(frame , cv2.COLOR_BGR2GRAY)
