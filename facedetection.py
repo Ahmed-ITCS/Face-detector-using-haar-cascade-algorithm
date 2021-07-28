@@ -2,8 +2,6 @@ import cv2
 from random import  randrange
 trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-
-#img = cv2.imread('maya.jpg')
 webcam =cv2.VideoCapture(0)
 while True:
     # Silicon.Valley.S01E01labiba marja.720p.5.1Ch.BluRay.ReEnc-DeeJayAhmed.mkv
